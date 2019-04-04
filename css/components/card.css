@@ -1,0 +1,43 @@
+.how-section>h2 {
+  text-align: center;
+}
+/*body {
+  background: yellow;
+}*/
+
+.how-cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 24px;
+}
+
+.how-card {
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+  text-align: center;
+  width: 350px;
+  height: 350px;
+  margin: 16px;
+}
+
+.img-how {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  padding-top: 16px;
+}
+
+.footer {
+  background-color: #F7C00A;
+  text-align: center;
+  margin: 0;
+}
+
+.links>a {
+  color: black;
+  font-size: 24px;
+}
+
+.links {
+  padding-top: 16px;
+}
